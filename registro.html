@@ -1,0 +1,47 @@
+<html> 
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="efectos2 copy.css">
+	<script src="alertas.js" type="text/JavaScript"></script>
+	<title>Registro</title>
+</head>
+<body><center>
+	<br><br>
+	<p class="titulo24" align="center">Registro de Vehículos</p>
+	<br>
+	<table border="3" width="80%">
+		<form name="regis">
+		<tr>
+			<td align="center" colspan="2"><p><b>Los datos marcados con * son obligatorios</b></p></td>
+		</tr>
+		<tr>
+			<td><p>Indica las placas del vehículos</p></td>
+			<td width="50%" align="center"><input name="placas" type="text" class="campo" maxlength="50"><p>*</p></td>
+		</tr>
+		<tr>
+			<td><p>Indica la marca</p></td>
+			<td width="50%" align="center"><input name="marca" type="text" class="campo" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td><p>Indica el año</p></td>
+			<td width="50%" align="center"><input name="año" type="text" class="campo" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td><p>Indica el kilometraje</p></td>
+			<td width="50%" align="center"><input name="kilo" type="text" class="campo" maxlength="50"><p>*</p></td>
+		</tr>
+		<tr>
+			<td><p>Indica el precio</p></td>
+			<td width="50%" align="center"><input name="precio" type="text" class="campo" maxlength="70"><p>*</p></td>
+		</tr>
+		<tr>
+				<td align="center" colspan="2">
+					<table width="80%">
+						<tr align="center">
+							<td><input type="button" name="b_ejecuta" class="boton" value="Ejectutar" onclick="ejecutar()"></td>
+							<td><input type="reset" name="b_reset"  value="Reset" class="botonr"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</form>

@@ -1,0 +1,71 @@
+p { /*Selector de la etiqueta "p" */
+	font-size:14pt;
+	color:#de2a33 ;
+	font-family:serif;
+}
+
+.parrafo{ 
+	font-size:20pt;
+	color: #de2a33;
+	font-family:serif;
+	width: 70%;
+	font-weight: bold;
+
+}
+
+
+.titulo24{
+	font-size: 24pt;
+	background: #de2a33;
+	color: white;
+	width: 90%;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: serif;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.titulo18{
+	font-size: 18pt;
+	background: #de2a33;
+	color: white;
+	width: 70%;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: serif;
+}
+
+.boton{
+	font-size: 14pt;
+	font-weight: bold;
+	color: #de2a33;
+	background:white;
+	width: 125px;
+	height: 50px;
+	
+}
+
+.botonr{
+	font-size: 14pt;
+	font-weight: bold;
+	color: white;
+	background:red;
+	width: 125px;
+	height: 50px;
+}
+
+.boton:hover{
+	color: #de2a33;
+	background: ghostwhite;	
+}
+
+.campo{
+	background:#de2a33;
+	color: white;
+	font-size: 14pt;
+	border-radius: 7px;
+	font-weight: bold;
+	text-align: center;
+	width: 250px;
+}
